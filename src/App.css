@@ -1,0 +1,57 @@
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+  margin-top: 7%;
+}
+
+input {
+  border: none;
+  background-color: aliceblue;
+  text-align: center;
+  width: 50px;
+  font-size: large;
+  padding: 7px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.mainCounter {
+  width: 120px;
+  margin-top: 3%;
+  font-weight: 600;
+  padding: 3px;
+  position: absolute;
+  left: 46%;
+  color: black;
+  border-radius: 5px;
+  background-color: rgb(194, 194, 194);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width:790px) {
+  .mainCounter {
+    left: 44%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .mainCounter {
+    left: 40%;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .mainCounter {
+    left: 30%;
+  }
+}
